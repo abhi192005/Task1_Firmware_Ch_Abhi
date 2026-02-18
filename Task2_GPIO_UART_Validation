@@ -1,1 +1,40 @@
+# Task-2: GPIO and UART Validation
+
+## Objective
+The objective of Task-2 is to verify GPIO and UART functionality on the VSDSquadron Mini board.
+
+---
+
+## What I did
+- Powered the VSDSquadron Mini board
+- Wrote firmware to blink the onboard LED
+- Implemented delay using Delay_Ms()
+- Added UART print statements using printf()
+
+---
+
+## GPIO Result
+- GPIO pin PD6 was configured as output
+- LED connected to PD6 blinks every 1 second
+- This confirms GPIO and delay functionality
+
+---
+
+## UART Implementation
+- UART messages were added in firmware using printf()
+- Messages such as LED ON and LED OFF are printed in code
+
+---
+
+## UART Monitoring Limitation
+- The USB cable used supports power and programming only
+- The board USB interface (WCH-Link) is not mapped to UART
+- Therefore, UART output could not be viewed in Serial Monitor
+
+---
+
+## Conclusion
+- GPIO LED blinking is successfully verified on hardware
+- UART functionality is implemented at code level
+- Task-2 is completed with documented hardware limitation
 
