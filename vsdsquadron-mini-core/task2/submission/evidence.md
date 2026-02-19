@@ -31,5 +31,5 @@ The visible blinking of the on-board LED confirms correct GPIO functionality.
 ![LED Blinking](gpio1.jpg)
 
 ### Video
-Link: (paste video link)
+(gpio2.mp4)
 
