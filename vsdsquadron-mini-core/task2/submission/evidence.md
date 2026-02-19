@@ -8,7 +8,7 @@
 ![UART Output](UART1.jpg)
 
 ### Video
-Link: (paste Google Drive / YouTube link)
+(uart2.mp4)
 
 ---
 
