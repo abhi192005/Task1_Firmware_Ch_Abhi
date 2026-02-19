@@ -15,9 +15,9 @@ int main(void)
 	
 	SystemCoreClockUpdate();
 	Delay_Init();
-
-	printf("I am Abhi and I have Initialized UART");
-
+	USART_Printf_Init(115200);
+	printf("Syatem Clock :%d\r\n", SystemCoreClock);
+	printf("VSDSquadron Mini UART Validation Started\r\n");
 	GPIO_InitTypeDef GPIO_InitStructure = {0};
 
 	BLINKY_CLOCK_ENABLE;
@@ -30,11 +30,12 @@ int main(void)
 	while (1)
 	{
 		GPIO_WriteBit(BLINKY_GPIO_PORT, BLINKY_GPIO_PIN, ledState);
-		if(ledState)
-			printf("LED ON\r\n");
-		else
-			printf("LED OFF\r\n");
 		ledState ^= 1; // invert for the next run
+		if(ledState){
+			printf("LED is ON\r\n");
+		}else{
+			printf("LED is OFF\r\n");
+		}
 		Delay_Ms(1000);
 	}
 }
