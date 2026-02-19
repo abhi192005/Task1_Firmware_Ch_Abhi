@@ -5,7 +5,7 @@
 - Verified using PlatformIO serial monitor
 
 ### Screenshot
-![UART Output](uart_output.png)
+![UART Output](UART1.jpg)
 
 ### Video
 Link: (paste Google Drive / YouTube link)
