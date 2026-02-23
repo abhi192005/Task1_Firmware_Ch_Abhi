@@ -1,6 +1,8 @@
 #include "ch32v00x.h"
 #include "gpio.h"
 
+ // From debug.h
+
 void gpio_init(int pin, int mode)
 {
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
@@ -38,4 +40,12 @@ void gpio_toggle(int pin)
 int gpio_read(int pin)
 {
     return GPIO_ReadInputDataBit(GPIOD, pin);
+}
+
+// Optional debounce (task bonus)
+int gpio_read_debounced(int pin)
+{
+    int val = gpio_read(pin);
+    Delay_Ms(2000);
+    return (gpio_read(pin) == val && val == 0);  // Active low, stable
 }
