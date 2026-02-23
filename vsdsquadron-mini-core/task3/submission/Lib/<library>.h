@@ -9,5 +9,6 @@ void gpio_set(int pin);
 void gpio_clear(int pin);
 void gpio_toggle(int pin);
 int  gpio_read(int pin);
+int gpio_read_debounced(int pin);  // ← ADD THIS LINE
 
 #endif
