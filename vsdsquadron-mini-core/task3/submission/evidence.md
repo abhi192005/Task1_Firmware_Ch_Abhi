@@ -47,11 +47,11 @@ The application toggles the on-board LED at a fixed interval to demonstrate corr
 ## 5. Evidence Captured
 
 ### Photo Evidence
-![LED Blinking](UART1.jpg)
+![LED Blinking](output_task3.jpeg)
 - Photograph showing the VSDSquadron Mini board with the on-board LED blinking.
 
 ### Video Evidence
-(output.mp4)
+(task3.mp4)
 - A Short video demonstrating continuous LED toggling using the GPIO driver library.
 
 
