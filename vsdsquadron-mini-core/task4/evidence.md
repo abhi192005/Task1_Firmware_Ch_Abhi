@@ -27,3 +27,4 @@ Mode selection is performed by sending numeric commands through the serial termi
 The following UART output was observed during execution at **115200 baud rate**:
 ![LED Blinking](task4.jpg)
 and video 
+https://drive.google.com/file/d/1RaMRMz-3b-n-V2gvDahkDiUMg7CQKg5s/view
