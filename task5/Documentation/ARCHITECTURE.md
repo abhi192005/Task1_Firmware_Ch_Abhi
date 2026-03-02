@@ -28,7 +28,7 @@ The firmware architecture was designed with the following objectives:
 
 The system is divided into three logical layers:
 
-<img src="circuitdiagram.jpeg" width="500">
+<img src="blockdiagram.jpeg" width="500">
 
 ---
 
