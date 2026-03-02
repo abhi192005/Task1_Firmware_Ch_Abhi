@@ -27,8 +27,8 @@ The firmware architecture was designed with the following objectives:
 ## 3. High-Level Architecture
 
 The system is divided into three logical layers:
-![LED Blinking](blockdiagram.jpeg)
 
+<img src="circuitdiagram.jpg" width="500">
 
 ---
 
