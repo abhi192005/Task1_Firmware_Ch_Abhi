@@ -136,7 +136,7 @@ Example boundary usage:
 ### Circuit Summary
 An external LED is connected to **PD4** using a series resistor.
 
-![LED Blinking](circuitdiagram.jpeg)
+<img src="circuitdiagram.jpg" width="100">
 
 Notes:
 - LED turns ON when PD4 is driven HIGH (active-high configuration).
