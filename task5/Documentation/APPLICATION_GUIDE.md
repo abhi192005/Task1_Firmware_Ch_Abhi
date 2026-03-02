@@ -116,7 +116,7 @@ The timing of blinking is controlled entirely through the Timer driver delay fun
 
 ## 10. Application Flow Diagram
 
-![LED Blinking](flowdiagram.jpeg)
+<img src="flowdiagram.jpeg" width="500">
 
 
 ---
